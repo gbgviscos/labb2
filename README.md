@@ -8,12 +8,12 @@ secondary run `npm start`
 
 ## What kind of app is this:
 
-The app is supposed to show on skill to create and setup a webpage using react.
-In this app i focused around the useContext building up a smooth user interaction. 
+The app should show the skill to create and set up a webpage using React.
+In this app, I focused on the useContext building up a smooth user interaction. 
 
-there are multiple users to use (i did not create a sign up function)
+there are multiple users to use (I did not create a sign-up function)
 Test users:
-### Mornal User
+### Normal User
 username: test, password 1234
 
 ### Admin User
