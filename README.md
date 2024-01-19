@@ -1,3 +1,39 @@
+# Labb 2 - "Sports Freaks" 
+
+## How to start
+
+to start the project first run `npm run json-server`
+open a new terminal
+secondary run `npm start`
+
+## What kind of app is this:
+
+The app is supposed to show on skill to create and setup a webpage using react.
+In this app i focused around the useContext building up a smooth user interaction. 
+
+there are multiple users to use (i did not create a sign up function)
+Test users:
+username: test, password 1234 < Normal user >
+username: admin, password 1234 < Admin user >
+
+### Functionality added:
+
+### Ability to: 
+#### As a normal user: 
+Login, Join events, View what users are signed up for events.
+
+#### As admin user:
+user actions + Create Events, Remove Events
+
+### Functions added, later removed:
+
+Modify events, using modal it was using to much boilerplate code and it was cumbersome to build it from scratch. 
+
+# Versioning
+Version 1.0 - Uploaded 2024-01-19 - 14:00
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
