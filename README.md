@@ -13,7 +13,10 @@ In this app i focused around the useContext building up a smooth user interactio
 
 there are multiple users to use (i did not create a sign up function)
 Test users:
-username: test, password 1234 < Normal user >
+### Mornal User
+username: test, password 1234
+
+### Admin User
 username: admin, password 1234 < Admin user >
 
 ### Functionality added:
