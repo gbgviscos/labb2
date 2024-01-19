@@ -42,23 +42,21 @@ function Events() {
         }
         if (!eventToUpdate.event_attendees.includes(user.username)) {
           eventToUpdate.event_attendees.push(user.username);
-          console.log(eventToUpdate)
           const updateUrl = `http://localhost:3001/events/${event.id}`;
           return axios.put(updateUrl, eventToUpdate);
 
         } else {
-          console.log("Användare redan anmäld")
           throw new Error("Användare redan anmäld");
         }
       })
       .then(() => {
-        console.log('Anmäld till event!');
+        alert('Anmäld till event!');
         fetchEvents()
         // här skulle jag kunna använda useCallback istället. men för att simulera en "verklig" situation
         // där användaren troligen vill ha så uppdaterad info som möjligt tycker jag detta är bättre.
       })
       .catch(error => {
-        console.error('Ett fel hände när anmälan skulle göras:', error);
+        alert('Ett fel hände när anmälan skulle göras:', error);
       });
   };
 
@@ -66,11 +64,11 @@ function Events() {
     const removeUrl = `http://localhost:3001/events/${event.id}`;
     axios.delete(removeUrl)
     .then((response) => {
-      console.log("Event borttaget")
+      alert("Event borttaget")
       fetchEvents()
     })
     .catch((error) =>{
-      console.log(error)
+      alert(error)
     })
   }
 

@@ -3,7 +3,6 @@
 import React from 'react';
 
 function About() {
-    console.log("Rendered About!")
   return (
 <div className='aboutContainer'>
   <h1 className='aboutHeader'>Om oss</h1>

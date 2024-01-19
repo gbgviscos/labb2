@@ -12,9 +12,7 @@ function App() {
   const [activetab, setActivetab] = useState("Home");
 
   const NavPress = (value) => {
-    console.log("pressed a button!")
     setActivetab(value)
-    console.log(activetab)
   }
 
   return (

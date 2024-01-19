@@ -34,6 +34,7 @@ Modify events, using modal it was using to much boilerplate code and it was cumb
 
 # Versioning
 Version 1.0 - Uploaded 2024-01-19 - 14:00
+Version 1.1 - Removed all console.logs - 2024-01-19 - 14:35
 
 
 

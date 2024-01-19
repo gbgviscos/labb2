@@ -14,7 +14,6 @@ function Login() {
 
             if (userData && userData.password === password) {
                 login(userData);
-                console.log(user);
             } else {
                 console.error("Invalid username or password");
             }
