@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "username": "test",
+      "password": "1234",
+      "firstname": "Kate",
+      "lastname": "Kinnaird",
+      "gender": "Female",
+      "email": "kkinnaird0@biblegateway.com",
+      "events": [],
+      "rights": "user",
+      "id": "06bc"
+    },
+    {
+      "username": "admin",
+      "password": "1234",
+      "firstname": "Forster",
+      "lastname": "Paulusch",
+      "gender": "Male",
+      "email": "fpaulusch1@mapy.cz",
+      "events": [],
+      "rights": "admin",
+      "id": "3973"
+    },
+    {
+      "username": "ephillip2",
+      "password": "1234",
+      "firstname": "Emilee",
+      "lastname": "Phillip",
+      "gender": "Genderqueer",
+      "email": "ephillip2@acquirethisname.com",
+      "events": [],
+      "rights": "user",
+      "id": "2762"
+    },
+    {
+      "username": "wkenwell3",
+      "password": "1234",
+      "firstname": "Willdon",
+      "lastname": "Kenwell",
+      "gender": "Male",
+      "email": "wkenwell3@simplemachines.org",
+      "events": [],
+      "rights": "user",
+      "id": "28c7"
+    },
+    {
+      "username": "mbroadbury4",
+      "password": "1234",
+      "firstname": "Mariette",
+      "lastname": "Broadbury",
+      "gender": "Female",
+      "email": "mbroadbury4@discuz.net",
+      "events": [],
+      "rights": "user",
+      "id": "fa1e"
+    },
+    {
+      "username": "hsammon5",
+      "password": "1234",
+      "firstname": "Hillyer",
+      "lastname": "Sammon",
+      "gender": "Male",
+      "email": "hsammon5@google.fr",
+      "events": [],
+      "rights": "user",
+      "id": "a66c"
+    },
+    {
+      "username": "ebeadel6",
+      "password": "1234",
+      "firstname": "Erwin",
+      "lastname": "Beadel",
+      "gender": "Male",
+      "email": "ebeadel6@mapquest.com",
+      "events": [],
+      "rights": "user",
+      "id": "5d4a"
+    },
+    {
+      "username": "uismay7",
+      "password": "1234",
+      "firstname": "Udall",
+      "lastname": "Ismay",
+      "gender": "Male",
+      "email": "uismay7@bloglovin.com",
+      "events": [],
+      "rights": "user",
+      "id": "28de"
+    },
+    {
+      "username": "trobard8",
+      "password": "1234",
+      "firstname": "Tiffanie",
+      "lastname": "Robard",
+      "gender": "Female",
+      "email": "trobard8@creativecommons.org",
+      "events": [],
+      "rights": "user",
+      "id": "1fd1"
+    },
+    {
+      "username": "rmartinolli9",
+      "password": "1234",
+      "firstname": "Rafaellle",
+      "lastname": "Martinolli",
+      "gender": "Male",
+      "email": "rmartinolli9@gov.uk",
+      "events": [],
+      "rights": "user",
+      "id": "3f83"
+    }
+  ],
+  "events": [
+    {
+      "id": "c4d8",
+      "event_name": "Innebandy",
+      "event_date": "2024-01-17",
+      "event_time": "19:30",
+      "event_location": "Kärna Hallen",
+      "event_description": "Alla välkomna",
+      "event_attendees": [
+        "admin"
+      ],
+      "event_duration": "00:00",
+      "event_organizer": "Forster Paulusch"
+    },
+    {
+      "id": "963e",
+      "event_name": "Fotboll",
+      "event_date": "2024-01-19",
+      "event_time": "17:30",
+      "event_location": "Kärna Vallen",
+      "event_description": "Alla är välkomna",
+      "event_attendees": [
+        "admin"
+      ],
+      "event_duration": "00:00",
+      "event_organizer": "Forster Paulusch"
+    }
+  ]
+}
