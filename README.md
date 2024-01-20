@@ -11,7 +11,7 @@ secondary run `npm start`
 The app should show the skill to create and set up a webpage using React.
 In this app, I focused on the useContext building up a smooth user interaction. 
 
-there are multiple users to use (I did not create a sign-up function)
+there are multiple users to use and the ability to create a user. 
 Test users:
 ### Normal User
 username: test, password 1234
@@ -22,6 +22,9 @@ username: admin, password 1234 < Admin user >
 ### Functionality added:
 
 ### Ability to: 
+#### As a new potential user:
+Register with a very basic validation to avoid duplicated users and missing information
+
 #### As a normal user: 
 Login, Join events, View what users are signed up for events.
 
@@ -35,6 +38,7 @@ Modify events, using modal it was using to much boilerplate code and it was cumb
 # Versioning
 Version 1.0 - Uploaded 2024-01-19 - 14:00
 Version 1.1 - Removed all console.logs - 2024-01-19 - 14:35
+Version 1.2 - Added "Register" function, Formatted login page - 2024-01-20 - 20:41
 
 
 
