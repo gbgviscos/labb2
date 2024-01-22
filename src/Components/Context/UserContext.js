@@ -12,6 +12,7 @@ export const UserProvider = ({ children }) => {
         gender: '',
         email: '',
         rights: '',
+        events:'',
         isLoggedIn: 'false',
     })
 

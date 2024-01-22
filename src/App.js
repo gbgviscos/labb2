@@ -7,6 +7,7 @@ import { useState } from "react";
 import About from "./Components/Pages/About";
 import Login from "./Components/Pages/Login";
 import Events from "./Components/Pages/Events";
+import Profile from "./Components/Pages/Profile";
 
 function App() {
   const [activetab, setActivetab] = useState("Home");
@@ -39,8 +40,9 @@ function App() {
         >
           {activetab === "Home" && <Home /> }
           {activetab === "About" && <About />}
-          {activetab === "Login" && <Login />}
+          {activetab === "Login" && <Login setActivetab={setActivetab}/>}
           {activetab === "Events" && <Events />}
+          {activetab === 'Profile' && <Profile />}
         </div>
       </div>
       <Footer />

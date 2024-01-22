@@ -7,7 +7,11 @@
       "lastname": "Kinnaird",
       "gender": "Female",
       "email": "kkinnaird0@biblegateway.com",
-      "events": [],
+      "events": [
+        "963e",
+        "258c",
+        "c4d8"
+      ],
       "rights": "user",
       "id": "06bc"
     },
@@ -18,7 +22,10 @@
       "lastname": "Paulusch",
       "gender": "Male",
       "email": "fpaulusch1@mapy.cz",
-      "events": [],
+      "events": [
+        "46fa",
+        "963e"
+      ],
       "rights": "admin",
       "id": "3973"
     },
@@ -120,7 +127,7 @@
       "event_location": "Kärna Hallen",
       "event_description": "Alla välkomna",
       "event_attendees": [
-        "admin"
+        "test"
       ],
       "event_duration": "00:00",
       "event_organizer": "Forster Paulusch"
@@ -133,6 +140,7 @@
       "event_location": "Kärna Vallen",
       "event_description": "Alla är välkomna",
       "event_attendees": [
+        "test",
         "admin"
       ],
       "event_duration": "00:00",
@@ -146,9 +154,8 @@
       "event_location": "Kärna",
       "event_description": "",
       "event_attendees": [
-        "admin",
-        "test",
-        "pelle2"
+        "pelle2",
+        "test"
       ],
       "event_duration": "01:00",
       "event_organizer": "Forster Paulusch"

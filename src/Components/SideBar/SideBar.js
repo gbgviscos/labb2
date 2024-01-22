@@ -1,10 +1,19 @@
 import React, { useContext } from 'react';
 import UserContext from '../Context/UserContext'
 import '../../global.css'
+import toast from 'react-hot-toast';
 
 
 export const SideBar = ({setActivetab}) => {
     const {user, logout} = useContext(UserContext)
+
+    const logOutFunc = () => {
+        toast.success("Utloggad!", {
+            position:"top-center"
+        })
+        logout()
+        setActivetab("Home")
+    }
 
     return (
         <div className='sidebarContainer'>
@@ -21,7 +30,8 @@ export const SideBar = ({setActivetab}) => {
                 : 
                 <div>
                     <li className='navItem' onClick={() => setActivetab("Events")}>📆 Evenemang  </li>
-                    <li className='navItem' onClick={() => logout()}>❌ Logga Ut </li>
+                    <li className='navItem' onClick={() => setActivetab("Profile")}>👩‍🏫 Profil  </li>
+                    <li className='navItem' onClick={() => logOutFunc()}>❌ Logga Ut </li>
                 </div>
                 }
             </ul>

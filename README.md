@@ -39,6 +39,7 @@ Modify events, using modal it was using to much boilerplate code and it was cumb
 Version 1.0 - Uploaded 2024-01-19 - 14:00
 Version 1.1 - Removed all console.logs - 2024-01-19 - 14:35
 Version 1.2 - Added "Register" function, Formatted login page - 2024-01-20 - 20:41
+Version 1.3 - Added "Profile" Page (with no functionality), added "Hot Toast" for notification and UX improvements. 
 
 
 

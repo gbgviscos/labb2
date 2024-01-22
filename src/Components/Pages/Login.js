@@ -1,9 +1,10 @@
 import React, { useState, useContext } from 'react';
 import axios from 'axios';
 import UserContext from '../Context/UserContext';
+import toast from 'react-hot-toast';
 
-function Login() {
-    const { login, user } = useContext(UserContext);
+function Login({setActivetab}) {
+    const { login } = useContext(UserContext);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [email, setEmail] = useState('')
@@ -19,11 +20,12 @@ function Login() {
 
             if (userData && userData.password === password) {
                 login(userData);
+                setActivetab("Events")
             } else {
-                console.error("Invalid username or password");
+                toast.error("Invalid username or password");
             }
         } catch (error) {
-            console.error('Error logging in', error);
+            toast.error('Error logging in', error);
         }
     };
 
@@ -43,7 +45,7 @@ function Login() {
             const userData = response.data[0];
 
             if (userData) {
-                alert("Användarnamnet är taget")
+                toast.error("Användarnamnet är taget")
             } else {
                 if (username !== "" && password !== "" && firstname !== "" && lastname !== "" && email !== "") {
                 
@@ -73,17 +75,19 @@ function Login() {
             
                     axios.request(config)
                         .then((response) => {
+                            toast.success("Avändare Skapad")
                             regForm(false)
                             setEmail('')
                             setLastname('')
                             setName('')
                             setSex('')
+                            setActivetab("Events")
                         })
                         .catch((error) => {
-                            alert(error);
+                            toast.error(error);
                         });
                 } else {
-                    alert("Saknas data")
+                    toast.error("Saknas data")
                 }
             }
         } catch (error) {

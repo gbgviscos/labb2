@@ -1,74 +1,27 @@
 .event-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .event-table th,
-  .event-table td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .event-table th {
-    background-color: #f2f2f2;
-  }
-  
-  .event-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .event-table tbody tr:hover {
-    background-color: #e6e6e6;
-  }
-
-  .submit-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.submit-button:hover {
-    background-color: #45a049;
+.event-table th,
+.event-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
 }
 
-.join-button {
-  background-color: #4c53af;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.event-table th {
+  background-color: #f2f2f2;
 }
 
-.join-button:hover {
-  background-color: #fa70ff;
-}
-.joined-button {
-  background-color: #56f770;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  color: black
+.event-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
-.remove-button {
-  background-color: #af4c4c;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.remove-button:hover {
-  background-color: #ff0000;
+.event-table tbody tr:hover {
+  background-color: #e6e6e6;
 }
 
 .sidebarContainer {
@@ -167,4 +120,58 @@
 .regButton:hover {
   background-color: hsl(66, 98%, 49%);
   color: black;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.join-button {
+  background-color: #4c53af;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.join-button:hover {
+  background-color: #fa70ff;
+}
+
+.joined-button {
+  background-color: #56f770;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: black
+}
+
+.joined-button:hover {
+  background-color: #fa70ff;
+}
+
+
+.remove-button {
+  background-color: #af4c4c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #ff0000;
 }

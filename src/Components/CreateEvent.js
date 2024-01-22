@@ -4,6 +4,7 @@ import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css"
 import UserContext from '../Components/Context/UserContext';
 import '../CreateEvent.css'
+import toast from 'react-hot-toast';
 
 export const CreateEvent = (props) => {
     const { user } = useContext(UserContext);
@@ -62,9 +63,11 @@ export const CreateEvent = (props) => {
                 setStartDate(new Date())
                 setTime("00:00")
                 fetchEvents()
+                toast.success("Evenemang skapat!")
             })
             .catch((error) => {
-                alert(error);
+                toast.error(error);
+                
             });
     };
 
